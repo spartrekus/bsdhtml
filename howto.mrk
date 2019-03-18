@@ -1,0 +1,37 @@
+
+!begindoc
+
+
+!title Use html on a EBook Reader (Linux)
+!maketitle
+
+!= Settings of PC (BSD)
+Create a document with C.UTF-8. 
+
+!| nconfig set locale 
+
+
+
+!= MRK Document
+Create the document using mrk markup.
+It can be converted to html with the command
+
+!| 
+!| bsdhtml test.mrk 
+!|
+
+A file with html extension will be produced. 
+
+On the EBook reader, the html file will be easily opened.
+It can be read easily with special chars, using C.UTF-8
+in settings of the EBook reader.
+
+
+!enddoc
+ 
+
+
+
+
+
+
